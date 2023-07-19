@@ -1,0 +1,104 @@
+/*
+Theme Name : Learning Wordpress
+Author: Sishan Niroula
+Version: 1.0
+Author URI:sishanniroua.com
+*/
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+a:link,
+a:visited{
+    color: #063ec3;
+}
+p {
+    line-height: 1.6em;
+}
+div.container{
+    max-width: 920px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+article.post{
+    border-bottom: 2px dotted #bbbbbb;
+}
+article.post:last-of-type{
+    border-bottom: none;
+}
+
+/*header */
+.site-header {
+    border-bottom: 2px solid #999;
+}
+.site-footer {
+    margin-top: 30px;
+    border-bottom: 2px solid #999;
+}
+
+
+/*navigation menus*/
+    .site-header .site-nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .site-header .site-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .site-header .site-nav li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .site-header .site-nav a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+        padding: 5px;
+    }
+    .site-header .site-nav a:hover {
+        background-color: #f0f0f0;
+        color: #333;
+    }
+    .site-header nav ul li.current-menu-item a:link,
+    .site-header nav ul li.current-menu-item a:visited {
+        background-color: blue;
+        color: #fff;
+    }
+    
+    /* site footer */
+    .site-footer .site-nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .site-footer .site-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .site-footer .site-nav li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .site-footer .site-nav a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+        padding: 5px;
+    }
+    .site-footer .site-nav a:hover {
+        background-color: #f0f0f0;
+        color: #333;
+    }
+    .site-footer nav ul li.current-menu-item a:link,
+    .site-footer nav ul li.current-menu-item a:visited {
+        background-color: blue;
+        color: #fff;
+    }
